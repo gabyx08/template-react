@@ -6,8 +6,8 @@ export default class Col3 extends Component {
     return(
       <Col xs={3}>
         <Jumbotron>
-          <h1>20</h1>
-          <p>New follower added this month</p>
+          <h2>{this.props.numero}</h2>
+          <p>{this.props.texto}</p>
         </Jumbotron>
       </Col>
     )
