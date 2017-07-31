@@ -1,7 +1,4 @@
 
-.fondo--azul{
-  background-color: #038cfc;
-}
 .fondo--gris{
   background-color: #535758;
 }
@@ -18,4 +15,8 @@
 }
 .letra--blanca{
   color: #fff;
+}
+
+.tarjeta{
+  height: 125px;
 }

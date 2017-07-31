@@ -7,7 +7,7 @@ export default class Col9 extends Component {
     return(
       <Col xs={9}>
         <Jumbotron>
-          <div className='fondo--azul grande'> </div>
+          <div className='grande' style={{background : this.props.color}}> </div>
           <div className='fondo--gris'>
             <Row className="show-grid">
               <Col xs={4} className='text-center'>

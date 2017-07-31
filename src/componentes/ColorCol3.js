@@ -7,7 +7,7 @@ export default class ColorCol3 extends Component {
     return(
       <Col xs={3}>
         <Jumbotron>
-          <div className='peque fondo--azul'>
+          <div className='peque' style={{background : this.props.color}}>
             <p className='letra--blanca'>{this.props.info}</p>
             <p className='letra--blanca'>{this.props.datos}</p>
           </div>
