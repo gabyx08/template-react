@@ -1,0 +1,16 @@
+
+.fondo--azul{
+  background-color: rgb(18, 138, 193);
+}
+
+.peque{
+  height: 65px;
+}
+
+.grande{
+  height: 180px;
+}
+
+.container .jumbotron{
+  padding: 0;
+}
